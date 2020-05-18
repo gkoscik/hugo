@@ -26,10 +26,6 @@ nav {
 
 nav .container {
     height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
 }
 
 #main{
@@ -43,4 +39,14 @@ nav .container {
 .logo {
     height: 90%;
     width: 200px;
+}
+
+img.logo {
+   float: left;
+}
+
+a img {
+    float: right;
+    margin-left: 2rem;
+    margin-top: 2rem;
 }
